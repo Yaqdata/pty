@@ -22,9 +22,6 @@ var (
 )
 
 func init() {
-	//TODO
-        return
-	
 	var err error
 	kernel32DLL, err = syscall.LoadDLL("kernel32.dll")
 	if err != nil {
